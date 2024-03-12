@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Nunito", "sans-serif";
   color: rgb(58, 58, 94);
-  background-color: rgb(255, 252, 246);
 }
 
 a:link,
@@ -22,7 +21,7 @@ a:visited {
 }
 .navigation img {
   width: 190px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .navigation .login-button {
   display: block;
@@ -35,7 +34,7 @@ a:visited {
   border: 1px solid rgb(58, 58, 94);
   border-radius: 5px;
   padding: 12px 20px 30px 20px;
-  margin-right: 25px;
+  margin-right: 40px;
   background-color: rgb(255, 252, 246);
   color: rgb(58, 58, 94);
 }
@@ -46,9 +45,9 @@ a:visited {
 }
 .header .intro .title {
   font-family: "Nunito", "sans-serif";
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
-  margin: 15px 50px 30px 50px;
+  margin: 0px 60px 30px 60px;
   color: rgb(53, 198, 247);
 }
 .header .headings .heading {
@@ -65,17 +64,16 @@ a:visited {
 }
 .header .headings p {
   font-size: 15px;
-  margin: 30px 40px 30px 40px;
+  margin: 30px 40px 45px 40px;
 }
 .header .headings .button {
   margin: 0 auto;
 }
 .header h4 {
   font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  margin: 45px 40px -1px 40px;
   color: rgb(58, 58, 94);
-  font-size: 25px;
-  margin: 20px;
-  margin-bottom: -1px;
 }
 
 .section {
@@ -117,18 +115,19 @@ a:visited {
   margin: 20px 20px 20px 20px;
 }
 .section .button {
-  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .button {
   display: block;
-  width: 200px;
-  height: 100px;
-  font-size: 30px;
+  width: 180px;
+  height: 0px;
+  font-size: 15px;
+  font-weight: bolder;
   text-align: center;
-  padding: 28px 10px;
   border: 2px solid rgb(58, 58, 94);
-  border-radius: 20px;
+  border-radius: 5px;
+  padding: 10px 0px 30px 0px;
   background-color: rgb(58, 58, 94);
   color: rgb(255, 252, 246);
 }
@@ -137,5 +136,9 @@ a:visited {
   background-color: lemonchiffon;
   text-align: center;
   color: rgb(58, 58, 94);
-  padding: 20px;
+  border-color: lemonchiffon;
+}
+.footer p {
+  padding: 20px 20px 20px 20px;
+  margin: -25px;
 }/*# sourceMappingURL=styles.css.map */
