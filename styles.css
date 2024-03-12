@@ -20,6 +20,7 @@ a:visited {
   align-items: center;
 }
 .navigation img {
+  width: 190px;
   margin-left: 10px;
 }
 .navigation .login-button {
@@ -27,14 +28,15 @@ a:visited {
   width: 90px;
   height: 0px;
   font-size: 15px;
+  font-weight: bold;
   font-family: "Merriweather Sans", sans-serif;
-  padding: 12px 20px 30px 20px;
+  text-align: center;
   border: 1px solid midnightblue;
   border-radius: 5px;
+  padding: 12px 20px 30px 20px;
   margin-right: 25px;
   background-color: rgb(255, 252, 246);
   color: midnightblue;
-  text-align: center;
 }
 
 .header {
