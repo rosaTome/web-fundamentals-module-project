@@ -15,27 +15,26 @@ a:visited {
 .navigation {
   height: 10vh;
   background-color: rgb(255, 252, 246);
-  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navigation .navigation img {
-  margin: 10px;
-  min-height: 300px;
-  border-radius: 30px;
+.navigation img {
+  margin-left: 10px;
 }
 .navigation .login-button {
   display: block;
-  width: 200px;
-  height: 100px;
-  font-size: 30px;
-  text-align: center;
-  padding: 28px 10px;
-  border: 2px solid midnightblue;
-  border-radius: 20px;
+  width: 90px;
+  height: 0px;
+  font-size: 15px;
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 12px 20px 30px 20px;
+  border: 1px solid midnightblue;
+  border-radius: 5px;
+  margin-right: 25px;
   background-color: rgb(255, 252, 246);
   color: midnightblue;
+  text-align: center;
 }
 
 .header {
