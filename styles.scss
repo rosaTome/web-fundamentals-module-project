@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
-    color: $color-black;
+    color: $color-secondary;
 }
 
 a:link,
@@ -20,6 +20,13 @@ a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    .navigation img{
+        margin: 10px;
+        min-height: 300px;
+        border-radius: 30px;
+    }
     
     .login-button {
         display: block;
@@ -36,3 +43,132 @@ a:visited {
 
 }
 
+.header {
+    background-color: $color-primary;
+    text-align: center;
+
+    .intro{
+        
+        .title {
+            font-family: $font-body;
+            color: $color-secondary-light;
+            font-size: 35px;
+        }
+
+    }
+
+    .headings{
+
+        .heading {
+            font-family: $font-display;
+            color: $color-secondary;
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        .sub-heading{
+            font-family: $font-display;
+            color: $color-secondary-light;
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        .button {
+            margin: 0 auto;
+        }
+    }   
+
+    h5 {
+        font-family: $font-display;
+        color: $color-secondary;
+        font-size: 25px;
+        margin: 20px;
+        margin-bottom: -1px;
+       
+    }
+}
+
+.section {
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    
+    .penguin-1 {
+
+        img {
+            float: right;
+        }
+
+        p {
+            width: 300px;
+            padding: 30px 30px 30px 30px;
+            margin: 20px 20px 20px 20px;           
+        }
+    }
+
+    .penguin-2 {
+
+        img {
+            float: left;
+        }
+
+        p {
+            width: 300px;
+            padding: 30px 30px 30px 30px;
+            margin: 20px 20px 20px 20px;           
+        }
+    }
+
+    .penguin-3 {
+
+        img {
+            float: right;
+        }
+
+        p {
+            width: 300px;
+            padding: 30px 30px 30px 30px;
+            margin: 20px 20px 20px 20px;           
+        }
+    }
+
+    .penguin-4 {
+
+        img {
+            float: left;
+        }
+
+        p {
+            width: 300px;
+            padding: 30px 30px 30px 30px;
+            margin: 20px 20px 20px 20px;           
+        }
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+}
+
+.button {
+    display: block;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding: 28px 10px;
+    border: 2px solid $color-secondary;
+    border-radius: 20px;
+    background-color: $color-secondary;
+    color: $color-primary;
+}
+
+.footer {
+    background-color: $color-primary-light;
+    text-align: center;
+    color: $color-secondary;
+
+    padding: 20px;
+}
