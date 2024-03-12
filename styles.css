@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", "sans-serif";
-  color: midnightblue;
+  color: rgb(58, 58, 94);
+  background-color: rgb(255, 252, 246);
 }
 
 a:link,
@@ -31,12 +32,12 @@ a:visited {
   font-weight: bold;
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
-  border: 1px solid midnightblue;
+  border: 1px solid rgb(58, 58, 94);
   border-radius: 5px;
   padding: 12px 20px 30px 20px;
   margin-right: 25px;
   background-color: rgb(255, 252, 246);
-  color: midnightblue;
+  color: rgb(58, 58, 94);
 }
 
 .header {
@@ -45,27 +46,29 @@ a:visited {
 }
 .header .intro .title {
   font-family: "Nunito", "sans-serif";
-  color: lightskyblue;
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 15px 50px 30px 50px;
+  color: rgb(53, 198, 247);
 }
 .header .headings .heading {
   font-family: "Merriweather Sans", sans-serif;
-  color: midnightblue;
-  font-size: 25px;
+  color: rgb(58, 58, 94);
+  font-size: 20px;
   margin: 20px 0;
 }
 .header .headings .sub-heading {
   font-family: "Merriweather Sans", sans-serif;
-  color: lightskyblue;
-  font-size: 25px;
+  color: rgb(53, 198, 247);
+  font-size: 20px;
   margin: 20px 0;
 }
 .header .headings .button {
   margin: 0 auto;
 }
-.header h5 {
+.header h4 {
   font-family: "Merriweather Sans", sans-serif;
-  color: midnightblue;
+  color: rgb(58, 58, 94);
   font-size: 25px;
   margin: 20px;
   margin-bottom: -1px;
@@ -120,15 +123,15 @@ a:visited {
   font-size: 30px;
   text-align: center;
   padding: 28px 10px;
-  border: 2px solid midnightblue;
+  border: 2px solid rgb(58, 58, 94);
   border-radius: 20px;
-  background-color: midnightblue;
+  background-color: rgb(58, 58, 94);
   color: rgb(255, 252, 246);
 }
 
 .footer {
   background-color: lemonchiffon;
   text-align: center;
-  color: midnightblue;
+  color: rgb(58, 58, 94);
   padding: 20px;
 }/*# sourceMappingURL=styles.css.map */
