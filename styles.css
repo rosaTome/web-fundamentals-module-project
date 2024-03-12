@@ -53,15 +53,19 @@ a:visited {
 }
 .header .headings .heading {
   font-family: "Merriweather Sans", sans-serif;
-  color: rgb(58, 58, 94);
   font-size: 20px;
-  margin: 20px 0;
+  margin: 30px 50px 30px 50px;
+  color: rgb(58, 58, 94);
 }
 .header .headings .sub-heading {
   font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  margin: 30px 10px 30px 10px;
   color: rgb(53, 198, 247);
-  font-size: 20px;
-  margin: 20px 0;
+}
+.header .headings p {
+  font-size: 15px;
+  margin: 30px 40px 30px 40px;
 }
 .header .headings .button {
   margin: 0 auto;

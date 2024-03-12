@@ -68,17 +68,21 @@ a:visited {
 
         .heading {
             font-family: $font-display;
-            color: $color-secondary;
             font-size: 20px;
-            margin: 20px 0;
-
+            margin: 30px 50px 30px 50px;
+            color: $color-secondary;
         }
 
         .sub-heading{
             font-family: $font-display;
+            font-size: 18px;
+            margin: 30px 10px 30px 10px;
             color: $color-secondary-light;
-            font-size: 20px;
-            margin: 20px 0;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 30px 40px 30px 40px;
         }
 
         .button {
