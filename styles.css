@@ -1,17 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Nunito&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", "sans-serif";
-  color: rgb(58, 58, 94);
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
 .navigation {
   height: 10vh;
   background-color: rgb(255, 252, 246);
@@ -142,12 +129,25 @@ a:visited {
 
 .footer {
   background-color: lemonchiffon;
-  text-align: center;
   color: rgb(58, 58, 94);
   border-color: lemonchiffon;
+  text-align: center;
 }
 .footer p {
   padding: 20px 20px 20px 20px;
   margin: -25px;
   font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", "sans-serif";
+  color: rgb(58, 58, 94);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

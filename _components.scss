@@ -1,0 +1,178 @@
+@use "./variables" as *;
+
+.navigation {
+    height: 10vh;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 190px;
+        margin-left: 20px;
+    }
+    
+    .login-button {
+        display: block;
+        width: 90px;
+        height: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: $font-display;
+        text-align: center;
+        border: 1px solid $color-secondary;
+        border-radius: 5px;
+        padding: 12px 20px 30px 20px;
+        margin-right: 40px;
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+}
+
+.header {
+    background-color: $color-primary;
+    text-align: center;
+
+    .intro{
+        
+        .title {
+            font-family: $font-body;
+            font-size: 25px;
+            font-weight: bolder;
+            margin: 0px 60px 30px 60px;
+            color: $color-secondary-light;
+        }
+    }
+
+    .headings{
+
+        .heading {
+            font-family: $font-display;
+            font-size: 20px;
+            margin: 30px 50px 30px 50px;
+            color: $color-secondary;
+        }
+
+        .sub-heading{
+            font-family: $font-display;
+            font-size: 18px;
+            margin: 30px 10px 30px 10px;
+            color: $color-secondary-light;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 30px 40px 45px 40px;
+        }
+
+        .button {
+            margin: 0 auto;
+        }
+    }   
+
+    h4 {
+        font-family: $font-display;
+        font-size: 20px;
+        margin: 45px 40px 0px 40px;
+        color: $color-secondary;
+    }
+}
+
+.section {
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    
+    .penguin-1 {
+        margin-top: 20px;
+
+        img {
+            float: right;
+            padding: 10px 10px 10px 60px;
+            margin: -30px -50px 20px -40px;           
+        }
+
+        p {
+            float: left;
+            width: 200px;
+            margin: 30px 20px 20px -40px;           
+        }
+
+    }
+
+    .penguin-2 {
+
+        img {
+            float: left;
+            margin: -50px 20px 20px 10px;  
+        }
+
+        p {
+            float: right;
+            width: 200px;
+        }
+
+    }
+
+    .penguin-3 {
+
+        img {
+            float: right;
+            padding: 10px 10px 10px 60px;
+            margin: -30px -20px 20px -40px;  
+        }
+
+        p {
+            float: left;
+            width: 200px;  
+        }
+    }
+
+    .penguin-4 {
+
+        img {
+            float: left;
+            margin: -20px 20px 20px 10px;  
+        }
+
+        p {
+            float: right;
+            width: 200px;
+            margin-top: 5px;
+            padding-left: 30px;
+        }
+    }
+
+    .button {
+        margin-bottom: 60px;
+    }
+
+}
+
+.button {
+    display: block;
+    width: 180px;
+    height: 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid $color-secondary;
+    border-radius: 5px;
+    padding: 10px 0px 30px 0px;
+    background-color: $color-secondary;
+    color: $color-primary;
+}
+
+.footer {
+    background-color: $color-primary-light;
+    color: $color-secondary;
+    border-color: $color-primary-light;
+    text-align: center;
+
+    p {
+        padding: 20px 20px 20px 20px;
+        margin: -25px;
+        font-weight: bolder;
+    }
+}
